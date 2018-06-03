@@ -14,7 +14,7 @@ end
 
 def assign_rooms(name)
 assigned_rooms = []
- 7.times do |room, number|
+ 7.times do 
 
  assigned_rooms << "Hello,"+"#{name}"+"! You'll be assigned to room"+"#{number}"+"!"
  end
