@@ -20,5 +20,5 @@ assigned_rooms = []
  return assigned_rooms
  end
 
-def printer
+def printer(assigned_rooms)
 end
