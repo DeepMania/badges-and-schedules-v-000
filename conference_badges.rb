@@ -22,9 +22,9 @@ room_assignments = []
 
 def printer(badges, room_assignments)
   badges.each do |name|
-    Puts "#{name}"
+    puts "#{name}"
   end
 room_assignments.each do |room|
-    Puts "#{room}"
+    puts "#{room}"
   end
 end
