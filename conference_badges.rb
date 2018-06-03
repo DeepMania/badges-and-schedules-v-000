@@ -22,5 +22,6 @@ assigned_rooms = []
 
 def printer(batch_badges_printed, assigned_rooms)
   batch_badges_printed.each do |name|
-    Puts ""
+    Puts "#{name}"
+  end
 end
