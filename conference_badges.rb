@@ -20,7 +20,7 @@ room_assignments = []
  return room_assignments
  end
 
-def printer(badges, room_assignments)
+def printer(badges,room_assignments)
   badges.each do |name|
     puts name
   end
