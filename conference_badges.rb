@@ -12,10 +12,10 @@ def batch_badge_creator(speakers)
 return batch_badges_printed
 end
 
-def assign_rooms(name)
+def assign_rooms(speakers)
 assigned_rooms = []
- 7.times do 
+  speaker.each do 
 
- assigned_rooms << "Hello,"+"#{name}"+"! You'll be assigned to room"+"#{number}"+"!"
+ assigned_rooms << "Hello,"+"#{name}"+"! You'll be assigned to room"+"#{index}"+"!"
  end
  end
