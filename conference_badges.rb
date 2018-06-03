@@ -24,4 +24,5 @@ def printer(badges,room_assignments)
   badges_and_room_assignments = []
   badges.each do |badge|
     puts "#{badge}"
+  end
 end
