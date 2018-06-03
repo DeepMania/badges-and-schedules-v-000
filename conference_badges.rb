@@ -13,7 +13,7 @@ return batch_badges_printed
 end
 
 def assign_rooms(name,room)
-
+assigned_rooms = []
 
  "Hello,"+"! You'll be assigned to room"+"#{room}!"
  end
