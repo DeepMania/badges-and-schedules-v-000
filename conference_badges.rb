@@ -20,5 +20,7 @@ assigned_rooms = []
  return assigned_rooms
  end
 
-def printer(assigned_rooms)
+def printer(batch_badges_printed, assigned_rooms)
+  assigned_rooms.each do |name|
+    Puts ""
 end
