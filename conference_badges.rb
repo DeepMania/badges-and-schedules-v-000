@@ -21,6 +21,6 @@ room_assignments = []
  end
 
 def printer(badges,room_assignments)
-  badges_and_room_assignments = [ ]
+  badges_and_room_assignments = []
   badges_and_room_assignments << batch_badge_creator(speakers) + assign_rooms(attendees)
 end
