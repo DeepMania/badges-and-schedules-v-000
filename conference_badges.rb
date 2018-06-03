@@ -13,5 +13,5 @@ return batch_badges_printed
 end
 
 def assign_rooms()
- "Hello, _____! You'll be assigned to room _____"
+ "Hello,"+"! You'll be assigned to room"+"#{room}!"
  end
