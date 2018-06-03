@@ -24,7 +24,7 @@ def printer(batch_badges_printed, assigned_rooms)
   batch_badges_printed.each do |name|
     Puts "#{name}"
   end
-  batch_badges_printed.each do |name|
-    Puts "#{name}"
+  assigned_rooms.each do |room|
+    Puts "#{room}"
   end
 end
